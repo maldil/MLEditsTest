@@ -9,8 +9,11 @@ class Test6 ():
         A = B+C+D
 
         L = [1, 2, 3, 4, 5, 6, 7, 8, 9]
-        sss = numpy.sum(L)
-        cum = sss*2
+        jjj = 0
+        for a in L:
+            jjj += a
+        cum = jjj * 2
+
 
         P = [1, 2, 3, 4, 5, 6, 7, 8, 9]
         Q = [1, 2, 3, 4, 5, 6, 7, 8, 9]
@@ -18,8 +21,11 @@ class Test6 ():
         S = P + Q + R
 
         K = [1, 2, 3, 4, 5, 6, 7, 8, 9]
-        sss = numpy.sum(K)
-        loo = sss*100
+        ttt=0
+        for a in K:
+            ttt += a
+
+        loo = ttt*100
 
         return S*cum
 
