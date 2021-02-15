@@ -10,8 +10,10 @@ class Test6 ():
         A = B+C+D
 
         L = [1, 2, 3, 4, 5, 6, 7, 8, 9]
-        rrr = numpy.sum(L)
-        cum = rrr * 2
+        ddd = 0
+        for a in L:
+            ddd += a
+        cum = ddd * 2
 
 
         P = [1, 2, 3, 4, 5, 6, 7, 8, 9]
@@ -20,9 +22,11 @@ class Test6 ():
         S = P + Q + R
 
         K = [1, 2, 3, 4, 5, 6, 7, 8, 9]
-        fff = tensorflow.add(K)
+        ooo = 0
+        for a in K:
+            ooo += a
 
-        loo = fff*100
+        loo = ooo*100
 
         return S*cum
 
