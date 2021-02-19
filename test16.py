@@ -4,7 +4,7 @@ import tensorflow
 
 class Test6 ():
     def add_arrays(self):
-        H = [[1, 2, 3, 4, 5, 6, 7, 8, 9],[1, 2, 3, 4, 5, 6, 7, 8, 9],[1, 2, 3, 4, 5, 6, 7, 8, 9]]
+        H = [numpy.ndarray([1, 2, 3, 4, 5, 6, 7, 8, 9]),numpy.ndarray([1, 2, 3, 4, 5, 6, 7, 8, 9]),numpy.ndarray([1, 2, 3, 4, 5, 6, 7, 8, 9])]
 
 
 
