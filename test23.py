@@ -5,9 +5,7 @@ class Test6 ():
     def add_arrays(self):
         data = 0
         collection = [1,2,4,5,6]
-        for x in collection:
-            if (x>2):
-                data+=x
+        data = sum([x for x in collection if x>2])
         return data
 
 
