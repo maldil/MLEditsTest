@@ -20,6 +20,9 @@ def contract_path(*operands, **kwargs):
     einsum_call_arg = kwargs.pop("einsum_call", False)
     use_blas = kwargs.pop('use_blas', True)
 
+    for x in use_blas:
+        print(x)
+
     # Python side parsing
     input_subscripts, output_subscript, operands = parser.parse_einsum_input(operands)
 
@@ -75,7 +78,7 @@ class ContractExpression1:
     def _normal_contract(self, arrays, out=None, backend='numpy', parse_constants=False):
         """The normal, core contraction.
         """
-        return _core_contract(list(arrays), self.contraction_list, out=out, backend=backend,
+        return _core_contract(list([1,2,3,4]), self.contraction_list, out=out, backend=backend,
                               parse_constants=parse_constants, **self.einsum_kwargs)
 
     def _convert_contract(self, arrays, out, backend, parse_constants=False):
