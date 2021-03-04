@@ -31,7 +31,7 @@ class Test6 ():
                 rr += x
         return data
 
-    def add_arrays3(self):
+    def add_arrays4(self):
         data = 0
         fff= [3,4,5]
         collection4 = [1,2,4,5,6]
