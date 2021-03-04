@@ -31,6 +31,15 @@ class Test6 ():
                 rr += x
         return data
 
+    def add_arrays3(self):
+        data = 0
+        fff= [3,4,5]
+        collection4 = [1,2,4,5,6]
+        rr=0
+        for x in collection4:
+            rr += x
+        return data
+
 
 if __name__ == "__main__":
     xxx = Test6().add_arrays()
