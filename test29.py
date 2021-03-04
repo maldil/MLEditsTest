@@ -37,7 +37,8 @@ class Test6 ():
         collection4 = [1,2,4,5,6]
         rr=0
         for x in collection4:
-            rr += x
+            if x in fff:
+                rr += x
         return data
 
 
