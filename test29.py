@@ -11,6 +11,14 @@ class Test6 ():
             if x in boo:
                 xx+=x
         return data
+    def add_arrays1(self):
+        data = 0
+        boo= [3,4,5]
+        collection1 = [1,2,4,5,6]
+        yy=0
+        for x in collection1:
+            yy+=x
+        return data
 
 
 if __name__ == "__main__":
