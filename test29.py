@@ -8,7 +8,8 @@ class Test6 ():
         collection = [1,2,4,5,6]
         xx=0
         for x in collection:
-            xx+=x
+            if x in boo:
+                xx+=x
         return data
 
 
