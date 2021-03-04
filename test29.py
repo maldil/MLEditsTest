@@ -17,7 +17,8 @@ class Test6 ():
         collection1 = [1,2,4,5,6]
         yy=0
         for x in collection1:
-            yy+=x
+            if x in boo:
+                yy += x
         return data
 
 
