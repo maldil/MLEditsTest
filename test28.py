@@ -31,6 +31,8 @@ def contract_path(*operands, **kwargs):
     input_sets = [set(x) for x in input_list]
     output_set = set(output_subscript)
     indices = set(input_subscripts.replace(',', ''))
+    for x in self.constants:
+        print(x)
 
 
 def _einsum(*operands, **kwargs):
@@ -120,6 +122,8 @@ class ContractExpression1:
                     self.contraction_list = new_contraction_list
                     self.constants = new_ops
 
+                for x in self.constants:
+                    print(x)
         return result
 
 
