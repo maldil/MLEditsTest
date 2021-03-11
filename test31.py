@@ -3,7 +3,7 @@ import numpy
 
 class Test1 ():
     def add_arrays(self):
-        Z = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+        Z = numpy.ndarray([1, 2, 3, 4, 5, 6, 7, 8, 9])
         bbb = 0
         for y in Z:
             bbb += y
