@@ -2,7 +2,7 @@
 import numpy
 
 class Test1 ():
-    def add_arrays(self):
+    def add_arrays_new(self):
         Z = numpy.ndarray([1, 2, 3, 4, 5, 6, 7, 8, 9])
         bbb = 0
         for y in Z:
@@ -12,5 +12,5 @@ class Test1 ():
 
 
 if __name__ == "__main__":
-    xxx = Test1().add_arrays()
+    xxx = Test1().add_arrays_new()
     print(xxx)
