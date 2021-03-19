@@ -8,7 +8,7 @@ class Test1 ():
         for y in Z:
             bbb += y
         sum = bbb * 2
-        return sum
+
 
 
 if __name__ == "__main__":
