@@ -15,7 +15,7 @@ class Test6 ():
 
         ooo =0
         for a in P:
-            ooo += a
+            ooo = ooo + a
 
         loo = ooo*100
 
