@@ -3,7 +3,7 @@ import numpy
 import tensorflow
 
 class Test6 ():
-    def add_arrays(self):
+    def add_arrays123(self):
         B = [1, 2, 3, 4, 5, 6, 7, 8, 9]
         C = [1, 2, 3, 4, 5, 6, 7, 8, 9]
         A = B+C+D
@@ -13,7 +13,8 @@ class Test6 ():
         for a in L:
             ddd += a
         cum = ddd * 2
-
+        B = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+        C = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 
         C = [1, 2, 3, 4, 5, 6, 7, 8, 9]
         D = [1, 2, 3, 4, 5, 6, 7, 8, 9]
