@@ -31,7 +31,7 @@ class Test6 ():
         return S*cum
 
     
-def add_arrays123(self):
+def add_arrays1236789(self):
         B = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 
         A = B+C+D
@@ -41,12 +41,14 @@ def add_arrays123(self):
         for a in L:
             ddd += a
         cum = ddd * 2
-        B = [1, 2, 3, 4, 5, 6, 7, 8, 9]
-        C = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+        Q = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+        W = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 
         C = [1, 2, 3, 4, 5, 6, 7, 8, 9]
         S = P + Q + R
-
+        cum = ddd * 2
+        Q = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+        W = [1, 2, 3, 4, 5, 6, 7, 8, 9]
         K = [1, 2, 3, 4, 5, 6, 7, 8, 9]
         ooo = 0
         for a in K:
